@@ -4,6 +4,11 @@ A light-weight and secure Node and friends Docker base image.
 
 `docker build -t tyrell/secure-nodejs-docker:latest .`
 
+
+# Install Snyk CLI (if you don't have it installed already)
+
+Follow the instructions at https://docs.snyk.io/snyk-cli/install-the-snyk-cli 
+
 # Scan with Snyk CLI
 
 `snyk container test tyrell/secure-nodejs-docker:latest --file=Dockerfile`
