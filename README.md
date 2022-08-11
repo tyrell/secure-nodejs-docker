@@ -31,3 +31,12 @@ As a best practice, follow the report and update the base image if required. Ide
     ✔ Tested 16 dependencies for known issues, no vulnerable paths found.
 
     According to our scan, you are currently using the most secure version of the selected base image
+
+
+# Verify Node and NPM versions
+
+    ❯ docker run tyrell/secure-nodejs-docker npm -v
+    6.14.17
+    
+    ❯ docker run tyrell/secure-nodejs-docker node -v
+    v14.20.0
